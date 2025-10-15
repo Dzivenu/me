@@ -1,0 +1,11 @@
+[build]
+  # No build command needed for static HTML
+  publish = "."
+  
+[build.environment]
+  # No environment variables needed
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
