@@ -32,6 +32,7 @@ Netlify build settings:
 - **Website:** dzivenu.me
 - **GitHub:** github.com/dzivenu
 - **LinkedIn:** linkedin.com/in/dzivenu
+- **Twitter/X:** x.com/dizvenug
 
 ## Technologies
 

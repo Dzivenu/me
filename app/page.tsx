@@ -93,7 +93,7 @@ const socialLinks = [
   },
   {
     label: "X",
-    href: "https://x.com/DzivenuG",
+    href: "https://x.com/dizvenug",
     icon: FaXTwitter
   },
   {
@@ -271,7 +271,11 @@ export default function Home() {
 
       <footer>
         <span>Building the future of decentralized infrastructure.</span>
-        <a href="https://github.com/dzivenu">github.com/dzivenu</a>
+        <div className="footerLinks">
+          <a href="https://www.linkedin.com/in/dzivenu/">linkedin.com/in/dzivenu</a>
+          <a href="https://x.com/dizvenug">x.com/dizvenug</a>
+          <a href="https://github.com/dzivenu">github.com/dzivenu</a>
+        </div>
       </footer>
     </main>
   );
