@@ -1,11 +1,11 @@
 [build]
-  # No build command needed for static HTML
-  publish = "."
-  
-[build.environment]
-  # No environment variables needed
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200

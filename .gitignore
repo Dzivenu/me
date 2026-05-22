@@ -1,9 +1,19 @@
 # Netlify
 .netlify/
 
+# Next.js
+.next/
+out/
+
 # OS files
 .DS_Store
 Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Environment
+.env*.local
 
 # Editor files
 .vscode/

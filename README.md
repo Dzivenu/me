@@ -1,55 +1,46 @@
 # Dzivenu Personal Website
 
-Personal landing page for Makafui George Dzivenu - Full Stack Software Developer & Blockchain Expert.
+Personal landing page for Makafui George Dzivenu, a full stack software developer focused on blockchain infrastructure and modern web applications.
 
-## 🚀 Deployment
+## Development
 
-This site is deployed on Netlify.
-
-### Deploy to Netlify
-
-1. **Push to GitHub:**
-   ```bash
-   git add .
-   git commit -m "Update personal website"
-   git push origin main
-   ```
-
-2. **Connect to Netlify:**
-   - Go to [Netlify](https://app.netlify.com/)
-   - Click "Add new site" → "Import an existing project"
-   - Choose GitHub and select your repository
-   - **Build settings:**
-     - Build command: (leave empty)
-     - Publish directory: `.` (current directory)
-   - Click "Deploy site"
-
-### Manual Deployment
-
-You can also drag and drop the entire `dzivenu` folder to Netlify's deploy interface.
-
-## 📁 Structure
-
-```
-dzivenu/
-├── index.html       # Main landing page
-├── netlify.toml     # Netlify configuration
-├── .gitignore       # Git ignore rules
-└── README.md        # This file
+```bash
+npm install
+npm run dev
 ```
 
-## 🔗 Links
+Open `http://localhost:3000`.
+
+## Deployment
+
+This site is built with Next.js and deployed on Netlify.
+
+Netlify build settings:
+
+- Build command: `npm run build`
+- Publish directory: `.next`
+
+## Structure
+
+- `app/page.tsx` - Main landing page
+- `app/globals.css` - Global styling
+- `app/layout.tsx` - Metadata and root layout
+- `netlify.toml` - Netlify configuration
+
+## Links
 
 - **Website:** dzivenu.me
 - **GitHub:** github.com/dzivenu
 - **LinkedIn:** linkedin.com/in/dzivenu
 
-## 🛠️ Technologies
+## Technologies
 
-- Pure HTML/CSS (no build process required)
+- Next.js
+- React
+- TypeScript
+- Lucide React icons
 - Responsive design
-- Dark theme optimized for readability
 
 ---
 
-Built with ❤️ by Dzivenu
+Built by Dzivenu
